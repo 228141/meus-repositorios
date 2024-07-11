@@ -1,29 +1,32 @@
+@charset "UTF-8";
 
+* {
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-image: linear-gradient(to right, #1E4359, #4E8DA6);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #1e435967;
+    width: 1600px;
+    padding: 10px;
+    margin: auto;
+}
 
 h1 {
-    font-family: 'Montserrat';
-    font-size: 100px;
+    color: #84C9D9;
+    text-align: center;
+    text-shadow: 1px 1px 2px #466a7299;
 }
 
-a {
-    font-size: 25px;
+h2 {
+    color: #8C442A;
 }
-
-.container {
-    background-color: aqua;
-    color:black; 
-    height: 400px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    gap: 20px;
-
-}
-
-.container p {
-    font-size: 30px;
-    color:blue;
-    background-color:chocolate;
+p {
+    text-align: justify;
 }
